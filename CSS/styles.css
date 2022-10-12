@@ -1,0 +1,93 @@
+body {
+  text-align: left;
+  margin: 0;
+  font-size: 15px;
+}
+div {
+  position: absolute;
+}
+h2 {
+  color: hsl(0, 0%, 95%);
+  margin: 30px auto;
+  padding-left: 50px;
+  font-family: 'Big Shoulders Display', cursive;
+}
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+img {
+  margin: 50px 250px 10px 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.master {
+  margin: 200px auto 150px;
+  width: 900px;
+  height: 500px;
+  position: relative;
+}
+.left-container {
+  background-color: hsl(31, 77%, 52%);
+  width: 300px;
+  height: 500px;
+  border-radius: 10px 0 0 10px;
+}
+
+.mid-container {
+  background-color: hsl(184, 100%, 22%);
+  margin-left: 300px;
+  width: 300px;
+  height: 500px;
+}
+
+.right-container {
+  background-color: hsl(179, 100%, 13%);
+  margin-left: 600px;
+  width: 300px;
+  height: 500px;
+  border-radius: 0 10px 10px 0;
+}
+
+.btn {
+  background: hsla(0, 0%, 95%, 1);
+  border-radius: 25px;
+  font-family: Arial;
+  color: black;
+  mix-blend-mode: lighten;
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 10px 20px 10px 20px;
+  margin: 50px auto 50px;
+  text-decoration: none;
+  width: 30%;
+}
+
+.btn:hover {
+  background: transparent;
+  color: hsla(0, 0%, 100%, 0.75);
+  text-decoration: none;
+  border: solid 2px;
+
+}
+
+.attribution {
+  margin: 30px auto 0 auto;
+  position: relative;
+  font-size: 11px;
+  text-align: center;
+}

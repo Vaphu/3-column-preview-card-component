@@ -1,0 +1,25 @@
+h3 {
+  margin: auto;
+}
+
+div {
+}
+
+.box {
+    border: 1px solid gray;
+    border-radius: 3px;
+    background: orange;
+    padding-top: 20px;
+}
+
+.left-container {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.mid-container {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.right-container {
+  background-color: hsl(31, 77%, 52%);
+}
